@@ -1,0 +1,20 @@
+Dataset: creditcard.csv
+Sampler: SMOTE
+Training time: 277.3088 seconds
+Balanced Accuracy: 0.9132
+AUC-ROC: 0.9685
+F1-score for class  0: 0.9997
+F1-score for class  1: 0.8482
+Statistical Test: McNemar, P-value: 0.0703
+Interpretation: No significant difference
+--------------------------------------------------
+Dataset: phishing.csv
+Sampler: SMOTE
+Training time: 0.3785 seconds
+Balanced Accuracy: 0.9746
+AUC-ROC: 0.9975
+F1-score for class  0: 0.9723
+F1-score for class  1: 0.9782
+Statistical Test: McNemar, P-value: 0.424
+Interpretation: No significant difference
+--------------------------------------------------

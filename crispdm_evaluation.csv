@@ -1,0 +1,11 @@
+Dataset,Sampler,Training Time (s),Balanced Accuracy,AUC-ROC,F1_Class_0,F1_Class_1,Compared With,Statistical Test,P-Value,Significant Difference
+creditcard.csv,SMOTE,280.7136,0.9132,0.9685,0.9997,0.8482,,,,
+creditcard.csv,ADASYN,303.4711,0.8978,0.9638,0.9997,0.8168,,,,
+creditcard.csv,SMOTE,280.7136,0.9132,0.9685,0.9997,0.8482,ADASYN,McNemar,0.0703,NO
+creditcard.csv,SMOTE,277.3088,0.9132,0.9685,0.9997,0.8482,,,,
+creditcard.csv,ADASYN,300.2094,0.8978,0.9638,0.9997,0.8168,,,,
+creditcard.csv,SMOTE,277.3088,0.9132,0.9685,0.9997,0.8482,ADASYN,McNemar,0.0703,NO
+phishing.csv,SMOTE,0.3785,0.9746,0.9975,0.9723,0.9782,,,,
+phishing.csv,ADASYN,0.4022,0.973,0.9974,0.9703,0.9765,,,,
+creditcard.csv,SMOTE,277.3088,0.9132,0.9685,0.9997,0.8482,ADASYN,McNemar,0.0703,NO
+phishing.csv,SMOTE,0.3785,0.9746,0.9975,0.9723,0.9782,ADASYN,McNemar,0.424,NO
